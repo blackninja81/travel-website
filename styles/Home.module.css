@@ -1,17 +1,27 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 0rem;
 }
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 0rem 0rem 5rem 0;
   flex: 1;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
+.navbar ul li{
+  border-radius: 2rem;
+  text-align: center;
+  width: 10rem;
+  margin: 0rem 5rem;
+}
+.navbar ul li:hover{
+  transition: ease;
+  transition-duration: 1s;
+  border-radius: 2rem;
+  background-color: #e5e6e9;
+}
 .footer {
   display: flex;
   flex: 1;
@@ -107,7 +117,46 @@
   height: 1em;
   margin-left: 0.5rem;
 }
-
+.home{
+  background-color: red;
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about{
+  background-color: blue;
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gallery{
+  background-color: red;
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact{
+  background-color: blue;
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;
