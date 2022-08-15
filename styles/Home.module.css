@@ -10,17 +10,18 @@
   justify-content: center;
   align-items: center;
 }
+
 .navbar ul li{
   border-radius: 2rem;
   text-align: center;
   width: 10rem;
-  margin: 0rem 5rem;
+  margin: 0rem 1rem;
 }
 .navbar ul li:hover{
   transition: ease;
   transition-duration: 1s;
   border-radius: 2rem;
-  background-color: #e5e6e9;
+  background-color: #7a91d6;
 }
 .footer {
   display: flex;
@@ -118,6 +119,79 @@
   margin-left: 0.5rem;
 }
 .home{
+  min-height: 100vh;
+  /* padding: 4rem 0; */
+  /* flex: 1; */
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+}
+.homevideo {
+  opacity: .3;
+  min-height: 100vh;
+  /* padding: 4rem 0; */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+.hometext{
+  font-family: 'Oleo Script Swash Caps', cursive;
+  color: white;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+}
+.hometext p{
+  padding: 5rem;
+  overflow: hidden;
+  margin: 2rem;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+
+}
+.about{
+  /* background-color: blue; */
+  min-height: 100vh;
+  min-width: 90vw;
+  /* padding: 4rem 0; */
+  flex: 1;
+  display:flex;
+  flex-direction: row;
+}
+.about_photo{
+  width: 50vw;
+  margin: 1rem;
+  margin-top: 7rem;
+  padding: 5rem;
+  text-align: center;
+  font-size: 20px;
+  overflow: hidden;
+  object-fit: fill;
+  object-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Playfair Display', serif;
+  background-image: url("https://images.pexels.com/photos/2146355/pexels-photo-2146355.jpeg?auto=compress&cs=tinysrgb&w=600");
+  /* background-color: green; */
+}
+.about_text{
+  width: 50vw;
+  margin: 1rem;
+  padding: 5rem;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+  /* background-color: green; */
+}
+.about_text p{
+  margin-top: 2rem;
+}
+.services{
   background-color: red;
   min-height: 100vh;
   padding: 4rem 0;
@@ -127,16 +201,53 @@
   justify-content: center;
   align-items: center;
 }
-.about{
-  background-color: blue;
+.destination{
+  display: inline;
   min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 2rem 0;
+  overflow: hidden;
+  justify-content: space-between;
+  text-align: center;
 }
+.destination h1{
+  font-family: 'Oleo Script Swash Caps', cursive;
+  padding: 3rem 0;
+  padding-bottom: 0rem;
+  text-align: center;
+}
+.destinationwrapper{
+  display: inline-block;
+}
+.cardwrapper{
+  display: inline-block;
+}
+.dcard{
+  /* height: 60vh; */
+  width: 60vh;
+  margin-left: 2.5rem;
+  margin-bottom: 2rem;
+  position: relative;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  box-shadow: 10px 5px 5px rgb(165, 162, 162);
+  }
+  .dcard img{
+    padding: .5rem;
+  }
+  .dcard p{
+    padding: 2rem ;
+  }
+  .dbutton{
+    width: 10rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    background-color: #0070f3;
+  }
+
+
 .gallery{
   background-color: red;
   min-height: 100vh;
