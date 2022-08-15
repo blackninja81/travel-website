@@ -8,7 +8,7 @@ export const HomeSection = () => {
             <video className={
                     styles.homevideo
                 }
-                autoplay
+                autoPlay
                 playsinline
                 muted
                 loop>

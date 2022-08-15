@@ -132,12 +132,12 @@
   opacity: .3;
   min-height: 100vh;
   /* padding: 4rem 0; */
-  flex: 1;
+  /* flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  object-fit: cover;
+  object-fit: cover; */
 }
 .hometext{
   font-family: 'Oleo Script Swash Caps', cursive;
@@ -154,6 +154,9 @@
   font-size: 20px;
   font-family: 'Playfair Display', serif;
 
+}
+.hometext h1{
+  font-size: 30px;
 }
 .about{
   /* background-color: blue; */
@@ -191,15 +194,9 @@
 .about_text p{
   margin-top: 2rem;
 }
-.services{
-  background-color: red;
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.about_text h1{
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 30px;
 }
 .destination{
   display: inline;
@@ -214,11 +211,9 @@
   padding: 3rem 0;
   padding-bottom: 0rem;
   text-align: center;
+  font-size: 30px;
 }
 .destinationwrapper{
-  display: inline-block;
-}
-.cardwrapper{
   display: inline-block;
 }
 .dcard{
@@ -236,6 +231,9 @@
   .dcard img{
     padding: .5rem;
   }
+  .dcard h1{
+    font-size: 30px;
+  }
   .dcard p{
     padding: 2rem ;
   }
@@ -246,8 +244,53 @@
     border-radius: 2rem;
     background-color: #0070f3;
   }
-
-
+.services{
+  background-color: rgb(196, 193, 193);
+  min-height: 50vh;
+  min-width: 100vw;
+  padding: 1rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services h1{
+  font-family: 'Oleo Script Swash Caps', cursive;
+  padding: 3rem 0;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 30px;
+}
+.serviceswrapper{
+  display: inline-block;
+}
+.scard{
+  /* height: 60vh; */
+  width: 60vh;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  text-align: center;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  box-shadow: 10px 5px 5px rgb(165, 162, 162);
+  }
+  .scard img{
+    padding: .5rem;
+  }
+  .scard h1{
+    padding: 1rem;
+    font-size: 30px;
+  }
+  .scard p{
+    padding: 2rem ;
+  }
+.cardwrapper{
+  display: inline-block;
+}
 .gallery{
   background-color: red;
   min-height: 100vh;
