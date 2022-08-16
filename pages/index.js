@@ -4,8 +4,9 @@ import {HomeSection} from '../components/HomeSection'
 import AboutSection from '../components/AboutSection'
 import Services from '../components/Services'
 import Destination from '../components/Destinations'
-import GallerySection from '../components/GallerySection'
-import ContactForm from '../components/Contact'
+import NewsSection from '../components/NewsSection'
+import Contact from '../components/Contact'
+import Footer from '../components/footer'
 // import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -23,8 +24,9 @@ export default function Home() {
             <AboutSection/>
             <Services/>
             <Destination/>
-            <GallerySection/>
-            <ContactForm/>
+            {/* <NewsSection/> */}
+            <Contact/>
+            <Footer/>
         </div>
     )
 }

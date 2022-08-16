@@ -1,11 +1,11 @@
 import styles from '../styles/Home.module.css';
 
-export const GallerySection = () => {
+export const NewsSection = () => {
     return (
         <div className={styles.gallery}>
-            <h1>GallerySection</h1>
+            <h1>News And Stories</h1>
         </div>
     );
 }
 
-export default GallerySection;
+export default NewsSection;

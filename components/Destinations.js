@@ -4,7 +4,7 @@ import { DCard } from './DCard';
 export const Destination = () => {
     return (
         <div className={styles.destination}>
-            <h1>Destinations</h1>
+            <h1>Packages</h1>
         <div className={styles.destinationwrapper}>
         <div className={styles.cardwrapper}>
             <DCard/>
