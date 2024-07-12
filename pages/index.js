@@ -7,11 +7,11 @@ import Destination from '../components/Destinations'
 import NewsSection from '../components/NewsSection'
 import Contact from '../components/Contact'
 import Footer from '../components/footer'
-// import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.css'
 
 export default function Home() {
     return (
-        <div>
+        <div className='home-page'>
             <Head>
                 <title>Travel Agency</title>
                 <meta name="description" content="Book a trip to your destination"/>
