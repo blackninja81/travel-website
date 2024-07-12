@@ -3,10 +3,10 @@ import styles from '../styles/Home.module.css';
 export const AboutSection = () => {
     return (
         <div className={styles.about}>
+            <h1>About Us</h1>
         <div className={styles.about_photo}>
            </div>
         <div className={styles.about_text}>
-            <h1>About Us</h1>
             <p>Lorem ipsum dolor sit amet, 
                consectetur adipiscing elit.
                Cras rutrum convallis eleifend.
